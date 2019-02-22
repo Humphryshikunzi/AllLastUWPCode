@@ -1,0 +1,1 @@
+C:\Users\user\source\repos\AdaptiveLayoutStateManager\AdaptiveLayoutStateManager\AdaptiveLayoutStateManager.csproj;x86

@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="Getdatafromuserproj.EnterDatafromuserproject"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Getdatafromuserproj"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel >
+            <TextBlock FontSize="20" TextWrapping="Wrap">Welcome to this page , please enter details to add them to the list</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Name="TextBlockFirstname" Text=" FirstName" Width="100"></TextBlock> 
+                <TextBox Name="TextBoxFirstname" Padding="20,0,0,10" Width="150"></TextBox>
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal">
+                <TextBlock Name="TextBlockSecondName" Text="SecondName" Width="100"></TextBlock>
+                <TextBox Name="TextBoxsecondname"  Padding="20,0,0,10" Width="150"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Name="TextBlockPassword" Text="Password" Width="100"></TextBlock>
+                <TextBox Name="TextBoxpassword"  Padding="20,0,0,10" Width="150"></TextBox>
+            </StackPanel>
+            <Button Content="Submit" Name="Submitbutton" Click="Submitbutton_OnClick"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
